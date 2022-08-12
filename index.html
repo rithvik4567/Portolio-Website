@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name = "viewport" content="width=device-width, initial-scale=1.0">
+        <title>Rithvik Potluri Portfolio Website</title>
+        <link rel = "stylesheet"
+        href = "https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+
+        <link rel = "stylesheet"
+        href = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+        integrity="sha256-46qynGAKLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin = "anonymous" />
+
+        <!-- Logos -->
+        <script src="https://kit.fontawesome.com/585dc774a5.js" crossorigin="anonymous"></script>
+
+        <!-- Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100&display=swap" rel="stylesheet">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Asap&display=swap" rel="stylesheet">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Encode+Sans+SC:wght@300&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href = "css/style.css">
+
+        <!-- Tab Icon -->
+        <link rel="icon" href="img/icon.jpg">
+
+    </head>
+    <body>
+        <header>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="menu"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#services" class="nav__link">About Me</a></li>
+                    <li class="nav__item"><a href="#res" class="nav__link">Resume</a></li>
+                    <li class="nav__item"><a href="#project" class="nav__link">Projects</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Introduction-->
+        <section class="intro" id="home">
+            <h1 class="section__title section__title--intro">
+                <strong> Rithvik Potluri </strong>
+            </h1>
+            <p class = "section__subtitle section__subtitle--intro"><strong>Software developer</strong></p>
+            <img src="img/Headshot.jpg" alt="a picture of Rithvik Potluri" class="intro__img">
+        </section>
+
+        <!-- My services-->
+
+        <section class="my-services" id="services">
+            <h2 class="section__title section__title--services">About Me</h2>
+            <p class ="section__subtitle section__subtitle--about">Introduction</p>
+
+            <div class="about-me__body">
+                <p>
+                    I am a final year computer science engineering student at The Ohio State University seeking full time opportunities in software engineering. 
+                    I am experienced in back end development and would like expand my knowledge in areas such as cloud computing(AWS), data analytics, and machine learning. 
+                    I have gotten the opportunity to work for three different companies in three different Industries (Banking, Insurance, and Science/Technology)
+                    which has given me a chance to learn information that we were not exposed to in school and how companies operate on a day to day basis.
+                </p>
+
+                <p> 
+                    Some of my hobbies include playing sports, dancing, and getting involved in many different cultural organizations on campus.
+                    I was the captain of my volleyball team in high school and have been playing organized basketball since the third grade. I am currently 
+                    captain of our premire male dance team at Ohio State and also serve as member of the Indian Students Association along with other organizations.
+                </p>
+
+                <p>
+                    <strong>Contact Details</strong><br>
+                    Rithvik Potluri<br>
+                    740-602-1686
+                </p>
+            </div>
+        </section>
+
+        <!-- Resume -->
+        <section class="resume" id="res">
+            <h2 class="section__title section__title--resume">Resume</h2>
+            <h5 class="section__subtitle section__subtitle--resume"><u>education</u></h5>
+            <div class="education">
+                <div class="school">
+                    <h3 class="headings">The Ohio State Univserity</h3>
+                    <h4 class="education--title">B.S. Computer Science and Engineering, May 2023 | GPA: 3.8</h4>
+                </div>
+            </div>
+            <h5 class="section__subtitle section__subtitle--resume"><u>work experience</u></h5>
+            <div class="jobs">
+                <!-- Liberty Mutual Internship -->
+                <div class="job">
+                    <h3 class="headings">Liberty Mutual</h3> <h4 class="job--title">Software Developer Intern | November 2021 - Present</h4>
+                    <p class="job--description">
+                        • Develop code spikes to replace <b>SQL Server</b> based “distance to coast” web service which is used as a rating factor to influence premiums during quoting while using <b>Splunk</b> to extract current implementation’s metrics<br>
+                        • Gain exposure to geospatial concepts like <b>WKT</b> (Well-known text) and <b>OpenGIS</b> functions while experimenting with <b>Python</b> libraries <b>Shapely</b> and <b>Vincenty</b><br>
+                        • Implement <b>SpatiaLite</b> solution as a drop-in replacement for existing <b>Java</b> service to accommodate a Python serverless solution<br>
+                        • Create <b>GitHub Gists</b> to share code snippets and posted questions on SpatiaLite mailing list to get feedback from other senior developers and to demo progress<br>
+                        • Pursue <b>AWS certified Developer-Associate</b> certification by enrolling in Udemy and LinkedIn Learning courses for IAM, EC2, S3, Lambda, API Gateway, CloudWatch, AWS CLI, DynamoDB, and other AWS tools
+                    </p>
+                </div>
+
+                <!-- Huntington Internship -->
+                <div class="job">
+                    <h3 class="headings">Huntington National Bank</h3> <h4 class="job--title">Commercial Digital Software Developer Intern | May 2021 - August 2021</h4>
+                    <p class="job--description">
+                        • Developed and maintained Huntington’s Commercial Digital Space on an <b>Agile</b> Team<br>
+                        • Learned and applied various skills including <b>Angular JS</b>, <b>Spring Boot</b>, and <b>Automation Testing</b><br>
+                        • Built a proof-of-concept Angular JS application that displayed information and linked to other websites<br>
+                        • Oversaw a team of 5 other interns on an innovation project that sought to improve onboarding and retention rates for Huntington colleagues that was selected to present to Huntington’s Executive Leadership Team
+                    </p>
+                </div>
+
+                <!-- Battelle Internship -->
+                <div class="job job__last">
+                    <h3 class="headings">Battelle</h3> <h4 class="job--title">Engineering Modeler/Programmer Intern | May 2021 - August 2021</h4>
+                    <p class="job--description">
+                        • Spearheaded mathematical model design and statistical analysis involving <b>Kolmogorov Smirnov</b> tests along with linear regression using back-end software development in <b>Excel VBA</b><br>
+                        • Prioritized data parsing, deriving insights from resulting intelligent data, and application optimization by decreasing run times by <b>93%</b>    
+                    </p>
+                </div>
+            </div>
+            <h5 class="section__subtitle section__subtitle--resume"><u>Technical Skills</u></h5>
+            <div class="skills">
+                <h3 class="skills--title">Languages/Tools</h3>
+                <p>
+                    Java, Python, C, C++, C#, Excel VBA, SQL, SQLite, Assembly(x86-64), SpatiaLite, Angular, R, Swift, HTML
+                </p>
+                <h3 class="skills--title">Relevant Courses</h3>
+                <p>
+                    Honors Fundamentals of Engineering (C/C++), Software Design/Data Structures (Java), Low-Level Programming and Computer Organization, Discrete Functions and Algorithms, Introduction to Database Systems (SQL), Calculus 3, Linear Algebra, Engineering Statistics, Development of Interactive Systems, Digital Logic and Design, Principles of Programming Languages, Foundations of Higher Math, Artificial Intelligence, Computer Networking
+                </p>
+                <h3 class="skills--title">Achievements/Certificates</h3>
+                <p>
+                    • Java Core Concepts (Udemy) <br>
+                    • Agile Product Owner Role: Foundations (LinkedIn Learning)<br>
+                    • Member of Ohio State University Dean’s List Spring 2020 (Achieved a GPA of 3.5 or higher)<br>
+                    • Community Recycling Campaign Ambassador (Adopted a school and raised money for academic supplies)
+                </p>
+            </div>
+
+        <!-- Projects EDIT THIS SECTION-->
+        <section class="projects" id="project">
+            <h2 class="section__title section__title--project">Projects</h2>
+
+            <div class="portfolio">
+                <!-- Legend Of Zelda  -->
+                <a href="https://tinyurl.com/Zelda-Code" target="_blank" class="portfolio__item">
+                    <img src="img/zelda.jpg" alt="" class="portfolio__img">
+                </a>
+
+                <!-- Robot-->
+                <a href="portfolio-robot.html" class="portfolio__item">
+                    <img src="img/robot.jpg" alt="" class="portfolio__img">
+                </a>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <!-- Email -->
+            <a href="rithvik4567@gmail.com" class="footer__link">rithvik4567@gmail.com</a>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com/rithvik4567" target="_blank">
+                        <i class="fa-brands fa-square-github"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.linkedin.com/in/rithvikpotluri/" target="_blank">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com/rithvik4567/Portfolio_Website" target="_blank">
+                        Source Code
+                    </a>
+                </li>
+            </ul>
+        </footer>
+
+        <script type="text/javascript" src="js/index.js"></script>
+
+    </body>
+</html>
+        
