@@ -1,7 +1,3 @@
 Description:
 
-This is a website I made to showcase my achivements.
-
-Personal website written from scratch
-Written in HTML/CSS and Javascript
-CSS styling done by hand
+This is a website I made to showcase my achivementwritten from scratch. This website was written in HTML/CSS and Javascript and the CSS styling was done by hand.
